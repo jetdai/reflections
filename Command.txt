@@ -1,0 +1,23 @@
+diff -u old.txt new.txt 
+//sirve para comparar dos archivos el primero viejo (-) y el segundo el nuevo (+)
+
+git diff id_viejo id_nuevo
+//will do this. It takes two arguments - the two commit ids to compare. 
+
+
+git checkout id_commit
+// abre esa version del archivo o arvhivos
+
+git clone
+//Make a copy of an entire Git repository, including the history, onto your own computer
+
+git log
+//Show the commits made in this repository, starting with the most recent.
+
+git init
+//inicializa el repositorio
+
+git status
+//give the status of the repository
+
+
