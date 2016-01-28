@@ -20,4 +20,36 @@ git init
 git status
 //give the status of the repository
 
+git diff
+//compara working directory y staging area. staging area es cuando agregar uno o varios archivos para hacer commit
 
+git diff --staged
+//compara staging area con el commit mas reciente del repositorio
+
+git reset --hard
+//descarta todos los cambios que se han hecho y no se han commit
+
+git branch
+//muestra el branch en el que estoy
+
+git branch "label"
+// el label puede ser cualquier palabra y esta funcion me crea un branch nuevo
+
+git checkout "label del branch"
+//me cambia al branch creado y no modifica el original
+
+git show
+//muestra las diferencia entre el commit deseado y su padre sin necesidad de conocer a su padre
+
+git branch -d "label"
+//Borra el label del branch seleccionado sin borrar el commit
+
+git merge "label del master branch" "label del brach que deseo combinar"//combina dos branch
+
+git merge --abort
+//obrta el merge
+
+git log --graph --oneline
+//me muestra los log y los de cada branch
+
+2a7aa341f6c55b62c63bab46348acd7b3c348be4
